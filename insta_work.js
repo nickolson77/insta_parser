@@ -3,8 +3,8 @@ function sendToTG (msg) {
 	
 	console.log('Sending to TG: '+ msg)
 	request({
-		url: 'https://api.telegram.org/bot654283043:AAH2Z4q_DgMlb_NTwHhR7KG0AQGtTHB17J0/sendMessage?chat_id=-318931511&text=https://instagram.com/p/'+msg+'/',
-		proxy: 'http://vladimir:testtest1@195.68.202.70:31289'
+		url: 'https://,
+		proxy: 'http://'
 	  }, function (error, response, body) {
 		if (error) {
 			console.log(error);
